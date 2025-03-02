@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-section .form-control {
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+
+.hero-section .btn-vip {
+    background-color: #ff6f61; /* VIP button color */
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-vip:hover {
+    background-color: #ff4a3d; /* Hover effect */
+}
+
+/* Prayer Times Section */
+.prayer-times-section {
+    padding: 50px 0;
+}
+
+.vip-card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent card */
+    border: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.vip-card .card-header {
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.vip-card .card-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.vip-card .list-group-item {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+}
+
+.vip-card .list-group-item strong {
+    color: #ff6f61; /* Highlight color */
+}
